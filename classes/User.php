@@ -127,4 +127,21 @@ class User {
             }
         }
     }
+    
+        public function updateAgentProfile($agent_id, $data) {
+        $sql = "
+            UPDATE users SET
+                agency_name = :agency_name,
+                agency_province_id = :agency_province_id,
+                agency_district_id = :agency_district_id
+            WHERE id = :agent_id AND role = 'acente'
+        ";
+        $stmt = $this->db->prepare($sql);
+        return $stmt->execute([
+            ':agency_name' => $data['agency_name'],
+            ':agency_province_id' => $data['agency_province_id'],
+            ':agency_district_id' => $data['agency_district_id'],
+            ':agent_id' => $agent_id
+        ]);
+    }
 }

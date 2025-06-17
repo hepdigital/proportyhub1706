@@ -326,4 +326,77 @@ public function updateFeaturesForUnitType($unit_type_id, $features) {
     }
     return true;
 }
+
+    /**
+     * Acenteler için gelişmiş filtreleme yaparak müsait tesis ve oda tiplerini bulur.
+     *
+     * @param array $filters Filtreleme kriterleri (start_date, end_date, guest_count vb.)
+     * @return array Müsait tesislerin ve oda tiplerinin listesi.
+     */
+    public function findAvailableProperties($filters = []) {
+        // Temel sorgu: Tesisleri ve bağlı oda tiplerini birleştirir
+        $sql = "
+            SELECT 
+                p.id as property_id,
+                p.name as property_name,
+                p.cover_photo_path,
+                p.address_province,
+                p.address_district,
+                p.commission_rate,
+                ut.id as unit_type_id,
+                ut.name as unit_type_name,
+                ut.capacity,
+                ut.base_price
+            FROM properties p
+            JOIN unit_types ut ON p.id = ut.property_id
+            WHERE p.status = 1 ";
+
+        $params = [];
+
+        // Kişi Sayısı Filtresi
+        if (!empty($filters['guest_count'])) {
+            $sql .= " AND ut.capacity >= :guest_count ";
+            $params[':guest_count'] = $filters['guest_count'];
+        }
+
+        // İl Filtresi
+        if (!empty($filters['province'])) {
+            $sql .= " AND p.address_province = :province ";
+            $params[':province'] = $filters['province'];
+        }
+
+        // Tesis Hizmetleri/Özellikleri Filtresi
+        if (!empty($filters['features']) && is_array($filters['features'])) {
+            foreach ($filters['features'] as $index => $feature_id) {
+                $sql .= " AND EXISTS (
+                    SELECT 1 FROM unit_type_to_feature_map map{$index} 
+                    WHERE map{$index}.unit_type_id = ut.id AND map{$index}.feature_id = :feature_id{$index}
+                ) ";
+                $params[":feature_id{$index}"] = $feature_id;
+            }
+        }
+        
+        // Tarih Aralığı Filtresi (En Önemli Kısım)
+        // Bu sorgu, belirtilen tarihlerde HİÇ dolu olmayan birimleri olan oda tiplerini bulur.
+        if (!empty($filters['start_date']) && !empty($filters['end_date'])) {
+            $sql .= " AND (
+                SELECT COUNT(u.id) FROM units u 
+                WHERE u.unit_type_id = ut.id
+            ) > (
+                SELECT COUNT(DISTINCT a.unit_id) FROM availability a
+                JOIN units u_inner ON a.unit_id = u_inner.id
+                WHERE u_inner.unit_type_id = ut.id
+                  AND a.is_available = 0 
+                  AND a.date >= :start_date AND a.date < :end_date
+            ) ";
+            $params[':start_date'] = $filters['start_date'];
+            $params[':end_date'] = $filters['end_date'];
+        }
+        
+        $sql .= " GROUP BY ut.id ORDER BY p.name, ut.base_price ASC";
+
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute($params);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }

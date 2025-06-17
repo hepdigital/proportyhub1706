@@ -54,6 +54,11 @@ $current_title = $page_titles[$page] ?? 'Panel';
                         </a>
                     </li>
                     <li>
+                        <a href="index.php?page=settings" class="<?php echo ($page === 'settings') ? 'active' : ''; ?>">
+                            <i data-feather="settings"></i> <span>Ayarlar</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="index.php?page=hizmetler" class="<?php echo ($page === 'hizmetler') ? 'active' : ''; ?>">
                             <i data-feather="tag"></i> <span>Ek Hizmetler</span>
                         </a>

@@ -6,90 +6,112 @@ require_once __DIR__ . '/../includes/init.php';
 
 // 2. OTURUM VE YETKİ KONTROLÜ
 $user = new User();
-
-// Eğer kullanıcı giriş yapmamışsa VEYA rolü 'acente' değilse, login sayfasına yönlendir.
 if (!$user->isLoggedIn() || ($_SESSION['user_role'] ?? '') !== 'acente') {
     header('Location: login.php');
     exit();
 }
-
-// 3. GEREKLİ DEĞİŞKENLERİ HAZIRLA
 $agent_id = $_SESSION['user_id'];
-$page = $_GET['page'] ?? 'dashboard'; // Varsayılan sayfa dashboard olsun.
+$page = $_GET['page'] ?? 'dashboard';
 
 
-// 4. SAYFAYA ÖZEL VERİLERİ ÇEK (SADECE GÖRÜNÜM İÇİN)
-// Acente panelinde POST işlemleri olmadığı için o bölüm tamamen kaldırıldı.
+// --- POST İŞLEMLERİNİ YÖNETME ---
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $action = $_POST['action'] ?? '';
 
-// Tesisler sayfası istenirse, veritabanından tüm aktif tesisleri çek.
+    // Ayarlar sayfasındaki profil güncelleme işlemi
+    if ($page === 'settings' && $action === 'update_profile') {
+        // HATA DÜZELTMESİ: Formdan gelmeyebilecek alanlar için null coalescing operatörü (??) kullanıldı.
+        // Bu, "Undefined array key" uyarısını engeller.
+        $data = [
+            'agency_name' => $_POST['agency_name'] ?? null,
+            'agency_province_id' => $_POST['agency_province_id'] ?? null,
+            'agency_district_id' => $_POST['agency_district_id'] ?? null
+        ];
+        $user->updateAgentProfile($agent_id, $data);
+        redirect('index.php?page=settings&status=success');
+        exit(); // Yönlendirme sonrası kodun çalışmasını durdurmak önemlidir.
+    }
+    
+    // Rezervasyon oluşturma işlemi
+    if ($action === 'create_reservation') {
+        $reservation_class = new Reservation();
+        $data = [
+            'agent_id' => $agent_id,
+            'property_id' => $_POST['property_id'] ?? null,
+            'unit_type_id' => $_POST['unit_type_id'] ?? null,
+            'start_date' => $_POST['start_date'] ?? null,
+            'end_date' => $_POST['end_date'] ?? null,
+            'guest_name' => $_POST['guest_name'] ?? null,
+            'guest_phone' => $_POST['guest_phone'] ?? null,
+            'guest_email' => $_POST['guest_email'] ?? null
+        ];
+        $result = $reservation_class->createAgentReservation($data);
+        
+        $_SESSION['flash_message'] = $result;
+        redirect('index.php?page=properties');
+        exit(); // Yönlendirme sonrası kodun çalışmasını durdurmak önemlidir.
+    }
+}
+
+
+// --- SAYFAYA ÖZEL VERİLERİ ÇEK (GET REQUESTS) ---
 if ($page === 'properties') {
     $property_class_for_view = new Property();
     $db_instance = Database::getInstance()->getConnection();
-
-    // Filtreleme formu için seçenekleri hazırla
+    
     $provinces_stmt = $db_instance->query("SELECT DISTINCT address_province FROM properties WHERE address_province IS NOT NULL AND address_province != '' ORDER BY address_province ASC");
     $filter_provinces = $provinces_stmt->fetchAll(PDO::FETCH_COLUMN);
-    $filter_amenities = $property_class_for_view->getAllMasterData('amenities');
-
-    // Kullanıcıdan gelen filtreleri al
+    $feature_class = new Feature();
+    $categorized_features = $feature_class->getAllCategoriesWithFeatures();
+    
     $filters = [];
-    if (!empty($_GET['province'])) {
-        $filters['province'] = $_GET['province'];
-    }
-    if (!empty($_GET['amenities']) && is_array($_GET['amenities'])) {
-        $filters['amenities'] = $_GET['amenities'];
-    }
+    if (!empty($_GET['province'])) $filters['province'] = $_GET['province'];
+    if (!empty($_GET['start_date'])) $filters['start_date'] = $_GET['start_date'];
+    if (!empty($_GET['end_date'])) $filters['end_date'] = $_GET['end_date'];
+    if (!empty($_GET['guest_count'])) $filters['guest_count'] = $_GET['guest_count'];
+    if (!empty($_GET['features']) && is_array($_GET['features'])) $filters['features'] = $_GET['features'];
+
+    $properties = $property_class_for_view->findAvailableProperties($filters);
     
-    // Tesisleri filtreleyerek getir
-    $properties = $property_class_for_view->getAllForAgents($filters); 
+    $pricing_class = new Pricing();
+    foreach ($properties as &$prop) {
+        if (!empty($filters['start_date']) && !empty($filters['end_date'])) {
+            $price_info = $pricing_class->calculateDailyPrices($prop['unit_type_id'], $filters['start_date'], $filters['end_date']);
+            $total_price = 0;
+            $current_date = new DateTime($filters['start_date']);
+            $end_date_obj = new DateTime($filters['end_date']);
+            while($current_date < $end_date_obj) {
+                $date_str = $current_date->format('Y-m-d');
+                $total_price += $price_info[$date_str] ?? $prop['base_price'];
+                $current_date->modify('+1 day');
+            }
+            $prop['total_price'] = $total_price;
+            $prop['commission_amount'] = ($total_price * $prop['commission_rate']) / 100;
+        }
+    }
+    unset($prop);
 }
 
-// Tesis detay sayfası istenirse, o tesise ait detayları çek.
-if ($page === 'property-detail' && isset($_GET['id'])) {
-    $property_class_for_view = new Property();
-    $property_id_for_view = $_GET['id'];
-    $property_data = $property_class_for_view->getById($property_id_for_view);
-    
-    if(!$property_data) {
-        $page = 'error';
-    } else {
-        // Gerekli tüm verileri hazırlıyoruz
-        $unit_class_for_view = new Unit();
-        $units = $unit_class_for_view->getByProperty($property_id_for_view);
-        
-        // Seçili olanlar
-        $selected_types = $property_class_for_view->getRelationsForProperty($property_id_for_view, 'property_to_type_map');
-        $selected_amenities = $property_class_for_view->getRelationsForProperty($property_id_for_view, 'property_to_amenity_map');
-        $selected_payment_options = $property_class_for_view->getRelationsForProperty($property_id_for_view, 'property_to_payment_option_map');
-
-        // Ana listeler (isim ve ikonları eşleştirmek için)
-        $all_property_types = $property_class_for_view->getAllMasterData('property_types');
-        $all_amenities = $property_class_for_view->getAllMasterData('amenities');
-        $all_payment_options = $property_class_for_view->getAllMasterData('payment_options');
-    }
+if ($page === 'settings') {
+    $agent_data = $user->findById($agent_id);
+    $db_instance = Database::getInstance()->getConnection();
+    $provinces_stmt = $db_instance->query("SELECT id, name FROM iller ORDER BY name ASC");
+    $all_provinces = $provinces_stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
 
-// 5. GÖRÜNÜM (VIEW) DOSYALARINI YÜKLE
-
-// Arayüzün üst kısmını (header) dahil et
+// --- GÖRÜNÜM (VIEW) DOSYALARINI YÜKLE ---
 include __DIR__ . '/views/partials/header.php';
-
-// Acentenin görmesine izin verilen sayfaların listesi
-$allowed_pages = ['dashboard', 'properties', 'property-detail', 'calendar', 'error']; 
-
+$allowed_pages = ['dashboard', 'properties', 'property-detail', 'calendar', 'error', 'settings']; 
 if (in_array($page, $allowed_pages)) {
     $page_path = __DIR__ . "/views/{$page}.php";
     if (file_exists($page_path)) {
         include $page_path;
     } else {
-        // Sayfa dosyası fiziksel olarak yoksa hata göster
         echo "<div class='p-8'><div class='alert alert-error'><strong>Hata:</strong> Sayfa dosyası bulunamadı: {$page}.php</div></div>";
     }
 } else {
-    // İzin verilmeyen bir sayfa istenirse, ana sayfaya (dashboard) yönlendir.
     include __DIR__ . '/views/dashboard.php';
 }
-
-// Arayüzün alt kısmını (footer) dahil et
 include __DIR__ . '/views/partials/footer.php';
+

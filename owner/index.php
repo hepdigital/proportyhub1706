@@ -488,9 +488,37 @@ if ($page === 'unit-type-add' && isset($_GET['property_id'])) {
     }
 }
 
+if ($page === 'reports') {
+    $report_class = new Report();
+
+    // Tarih filtresini ayarla
+    $start_date_filter = $_GET['start_date'] ?? date('Y-m-01');
+    $end_date_filter = $_GET['end_date'] ?? date('Y-m-t');
+
+    // Verileri çek
+    $stats = $report_class->getDashboardStats($owner_id, $start_date_filter, $end_date_filter);
+    $agent_performance = $report_class->getAgentPerformance($owner_id, $start_date_filter, $end_date_filter);
+    $room_type_performance = $report_class->getRoomTypePerformance($owner_id, $start_date_filter, $end_date_filter);
+}
+
+if ($page === 'dashboard') {
+    $report_class = new Report();
+    $notification_class = new Notification();
+
+    // İçinde bulunulan ay için tarihleri ayarla
+    $start_date_month = date('Y-m-01');
+    $end_date_month = date('Y-m-t');
+    
+    // Verileri çek
+    $dashboard_stats = $report_class->getDashboardStats($owner_id, $start_date_month, $end_date_month);
+    $upcoming_reservations = $report_class->getUpcomingReservations($owner_id);
+    $revenue_chart_data = $report_class->getMonthlyRevenueChartData($owner_id);
+    $recent_notifications = $notification_class->getNotifications($owner_id); // Sadece son birkaçını almak için LIMIT ekleyebilirsiniz.
+}
+
 include __DIR__ . '/views/partials/header.php';
 
-$allowed_pages = ['dashboard', 'calendar', 'properties', 'property-edit', 'hizmetler', 'error', 'unit-types', 'pricing-rules', 'unit-type-edit', 'unit-type-add'];
+$allowed_pages = ['dashboard', 'calendar', 'properties', 'property-edit', 'hizmetler', 'error', 'unit-types', 'pricing-rules', 'unit-type-edit', 'unit-type-add', 'notifications', 'reports'];
 if (in_array($page, $allowed_pages)) {
     $page_path = __DIR__ . "/views/{$page}.php";
     if (file_exists($page_path)) {

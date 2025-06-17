@@ -290,3 +290,5 @@ Stack trace:
 #1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-06-17', '7240', '24')
 #2 {main}
   thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 105
+[17-Jun-2025 11:48:18 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/classes/Router.php:1) in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Router.php on line 63
+[17-Jun-2025 11:55:21 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/classes/Router.php:1) in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Router.php on line 63

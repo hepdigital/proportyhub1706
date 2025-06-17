@@ -482,3 +482,58 @@
 [13-Jun-2025 17:11:59 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 69
 [13-Jun-2025 17:11:59 Europe/Istanbul] PHP Warning:  Undefined variable $raw_reservations in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 69
 [13-Jun-2025 17:11:59 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 69
+[17-Jun-2025 14:30:26 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 14:37:21 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 14:37:25 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 14:37:27 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 16:56:53 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 16:57:22 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 17:10:34 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 17:17:36 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 17:21:07 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 17:27:45 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29
+[17-Jun-2025 17:29:56 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.reservation_uid' in 'SELECT' in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php:29
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php(29): PDO->prepare('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/owner/calendar-events.php on line 29

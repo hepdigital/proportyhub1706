@@ -6,9 +6,9 @@ require_once __DIR__ . '/../includes/init.php';
 
 // Güvenlik ve oturum kontrolü (isteğe bağlı ama önerilir)
 $user = new User();
-if (!$user->isLoggedIn() || ($_SESSION['user_role'] ?? '') !== 'tesis_sahibi') {
+if (!$user->isLoggedIn()) {
     http_response_code(403);
-    echo json_encode(['success' => false, 'error' => 'Yetkisiz erişim.']);
+    echo json_encode(['success' => false, 'error' => 'Yetkisiz erişim. Bu API sadece giriş yapmış kullanıcılar içindir.']);
     exit();
 }
 

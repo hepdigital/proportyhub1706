@@ -4,9 +4,15 @@ $page_titles = [
     'calendar' => 'Takvim',
     'properties' => 'Tesislerim',
     'property-edit' => 'Tesis Yönetimi',
-    'hizmetler' => 'Ek Hizmetler'
+    'hizmetler' => 'Ek Hizmetler',
+    'notifications' => 'Bildirimler' // Yeni başlık eklendi
 ];
 $current_title = $page_titles[$page] ?? 'Panel';
+
+// --- BİLDİRİM SAYISINI ÇEKME ---
+// Bu kod bloğu yeni eklendi.
+$notification_class = new Notification();
+$unread_count = $notification_class->getUnreadCount($_SESSION['user_id']);
 ?>
 <!DOCTYPE html>
 <html lang="tr">
@@ -39,52 +45,41 @@ $current_title = $page_titles[$page] ?? 'Panel';
             </div>
             <nav class="sidebar-nav">
                 <ul>
+                    <li><a href="index.php?page=dashboard" class="<?php echo ($page === 'dashboard') ? 'active' : ''; ?>"><i data-feather="home"></i> <span>Panelim</span></a></li>
+                    <li><a href="index.php?page=calendar" class="<?php echo ($page === 'calendar') ? 'active' : ''; ?>"><i data-feather="calendar"></i> <span>Takvim</span></a></li>
+                    <li><a href="index.php?page=properties" class="<?php echo ($page === 'properties' || $page === 'property-edit') ? 'active' : ''; ?>"><i data-feather="briefcase"></i> <span>Tesislerim</span></a></li>
+                    <!-- YENİ BİLDİRİM MENÜSÜ EKLENDİ -->
                     <li>
-                        <a href="index.php?page=dashboard" class="<?php echo ($page === 'dashboard') ? 'active' : ''; ?>">
-                            <i data-feather="home"></i> <span>Panelim</span>
+                        <a href="index.php?page=notifications" class="<?php echo ($page === 'notifications') ? 'active' : ''; ?>">
+                            <i data-feather="bell"></i> 
+                            <span>Bildirimler</span>
+                            <?php if ($unread_count > 0): ?>
+                                <span class="notification-badge"><?php echo $unread_count; ?></span>
+                            <?php endif; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="index.php?page=calendar" class="<?php echo ($page === 'calendar') ? 'active' : ''; ?>">
-                            <i data-feather="calendar"></i> <span>Takvim</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.php?page=properties" class="<?php echo ($page === 'properties' || $page === 'property-edit') ? 'active' : ''; ?>">
-                            <i data-feather="briefcase"></i> <span>Tesislerim</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.php?page=hizmetler" class="<?php echo ($page === 'hizmetler') ? 'active' : ''; ?>">
-                            <i data-feather="tag"></i> <span>Ek Hizmetler</span>
-                        </a>
-                    </li>
+    <a href="index.php?page=reports" class="<?php echo ($page === 'reports') ? 'active' : ''; ?>">
+        <i data-feather="bar-chart-2"></i> 
+        <span>Raporlar</span>
+    </a>
+</li>
+                    <li><a href="index.php?page=hizmetler" class="<?php echo ($page === 'hizmetler') ? 'active' : ''; ?>"><i data-feather="tag"></i> <span>Ek Hizmetler</span></a></li>
                 </ul>
             </nav>
         </div>
         <div class="sidebar-footer">
-             <a href="logout.php">
-                <i data-feather="log-out"></i> <span>Çıkış Yap</span>
-             </a>
+             <a href="logout.php"><i data-feather="log-out"></i> <span>Çıkış Yap</span></a>
         </div>
     </aside>
-
-    <!-- MOBİL İÇİN ARKA PLAN KARARTMA -->
-    <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
     <!-- ANA İÇERİK ALANI -->
     <div class="main-content-area" id="main-content-area">
         <header class="main-header">
-            <!-- Mobil Menü Butonu -->
-            <button class="mobile-menu-button" id="mobile-menu-toggle">
-                <i data-feather="menu"></i>
-            </button>
-            
+            <button class="mobile-menu-button" id="mobile-menu-toggle"><i data-feather="menu"></i></button>
             <h1 class="flex-grow text-center md:text-left"><?php echo htmlspecialchars($current_title); ?></h1>
-
             <div class="user-menu">
                 <span>Merhaba, <strong><?php echo htmlspecialchars($_SESSION['user_name'] ?? 'Kullanıcı'); ?></strong></span>
             </div>
         </header>
-
         <main class="page-content">
