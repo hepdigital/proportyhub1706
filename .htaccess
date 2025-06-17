@@ -1,0 +1,36 @@
+# BEGIN Property Hub Rewrites
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Kural 1: Ana index.php dosyasına yapılan doğrudan istekleri yoksay
+RewriteRule ^index\.php$ - [L]
+
+# Kural 2: Mevcut bir dosya veya klasöre yapılan isteklere dokunma
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Kural 3: /api/ ile başlayan istekleri /api/index.php'ye yönlendir
+RewriteRule ^api/(.*)$ api/index.php?endpoint=$1 [QSA,L]
+
+# Kural 4: /ical/ ile başlayan istekleri ical-export.php'ye yönlendir
+# Oda tipi bazında birleştirilmiş iCal
+RewriteRule ^ical/export/([a-zA-Z0-9-]+)/room/([a-zA-Z0-9_.-]+)\.ics$ ical-export.php?key=$1&type=room&group_id=$2 [L]
+# Bireysel ünite iCal'i
+RewriteRule ^ical/export/([a-zA-Z0-9-]+)/unit/(\d+)\.ics$ ical-export.php?key=$1&type=unit&id=$2 [L]
+
+# Kural 5: Yukarıdaki kurallara uymayan diğer tüm istekleri ana index.php'ye yönlendir
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+</IfModule>
+# END Property Hub Rewrites
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# “ea-php83” paketini varsayılan “PHP” programlama dili olarak ayarlayın.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php83___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

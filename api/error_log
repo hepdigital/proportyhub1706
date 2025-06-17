@@ -1,0 +1,1400 @@
+[11-Jun-2025 02:00:20 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Cannot access private property Unit::$db in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php:31
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 31
+[11-Jun-2025 02:05:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Cannot access private property Unit::$db in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php:31
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 31
+[11-Jun-2025 02:22:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Cannot access private property Unit::$db in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php:37
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 37
+[11-Jun-2025 02:26:48 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Cannot access private property Unit::$db in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php:37
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 37
+[11-Jun-2025 10:27:15 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:16 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:20 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:22 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:22 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:28 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:27:29 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 10:27:29 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 10:33:04 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 102
+[11-Jun-2025 10:34:25 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 102
+[11-Jun-2025 10:37:59 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:04 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:07 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:38:13 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 10:38:13 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 10:39:01 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 102
+[11-Jun-2025 10:41:14 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 102
+[11-Jun-2025 10:42:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:50 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:53 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:55 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:58 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:42:59 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 10:42:59 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 10:46:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:32 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:34 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 10:46:44 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 10:46:44 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 10:47:34 Europe/Istanbul] PHP Warning:  Undefined variable $unit in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 89
+[11-Jun-2025 10:47:34 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function pushAvailabilityToSheet() on null in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php:89
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 89
+[11-Jun-2025 11:04:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:04:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:04:27 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 11:04:27 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 11:04:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:04:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:04:47 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 11:04:47 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 11:23:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:29 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:32 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:35 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:23:43 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 11:23:43 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 11:55:03 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:55:04 Europe/Istanbul] Google Sheets API error for unit 113 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_113!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_113!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:55:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:55:06 Europe/Istanbul] Google Sheets API error for unit 115 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_115!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_115!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:55:06 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:55:08 Europe/Istanbul] Google Sheets API error for unit 114 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_114!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_114!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:55:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:55:09 Europe/Istanbul] Google Sheets API error for unit 116 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_116!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_116!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:55:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:55:10 Europe/Istanbul] Google Sheets API error for unit 117 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_117!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_117!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:55:10 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 11:55:10 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 11:57:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:57:18 Europe/Istanbul] Google Sheets API error for unit 128 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_128!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_128!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:57:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:57:20 Europe/Istanbul] Google Sheets API error for unit 130 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_130!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_130!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:57:21 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:57:22 Europe/Istanbul] Google Sheets API error for unit 129 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_129!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_129!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:57:22 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:57:23 Europe/Istanbul] Google Sheets API error for unit 131 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_131!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_131!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:57:23 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 11:57:24 Europe/Istanbul] Google Sheets API error for unit 132 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_132!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_132!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 11:57:24 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 11:57:24 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:00:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:00:09 Europe/Istanbul] Google Sheets API error for unit 128 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_128!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_128!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:00:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:00:11 Europe/Istanbul] Google Sheets API error for unit 130 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_130!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_130!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:00:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:00:13 Europe/Istanbul] Google Sheets API error for unit 129 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_129!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_129!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:00:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:00:14 Europe/Istanbul] Google Sheets API error for unit 131 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_131!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_131!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:00:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:00:16 Europe/Istanbul] Google Sheets API error for unit 132 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_132!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_132!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:00:16 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:00:16 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:26:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:26:43 Europe/Istanbul] Google Sheets API error for unit 128 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_128!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_128!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:26:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:26:45 Europe/Istanbul] Google Sheets API error for unit 130 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_130!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_130!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:26:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:26:46 Europe/Istanbul] Google Sheets API error for unit 129 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_129!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_129!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:26:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:26:48 Europe/Istanbul] Google Sheets API error for unit 131 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_131!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_131!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:26:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:26:49 Europe/Istanbul] Google Sheets API error for unit 132 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_132!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_132!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:26:49 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:26:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:28:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:28:55 Europe/Istanbul] Google Sheets API error for unit 128 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_128!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_128!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:28:56 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:28:57 Europe/Istanbul] Google Sheets API error for unit 130 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_130!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_130!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:28:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:28:58 Europe/Istanbul] Google Sheets API error for unit 129 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_129!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_129!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:28:59 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:29:00 Europe/Istanbul] Google Sheets API error for unit 131 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_131!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_131!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:29:00 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:29:01 Europe/Istanbul] Google Sheets API error for unit 132 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_132!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_132!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:29:01 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:29:01 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:43:00 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:43:01 Europe/Istanbul] Google Sheets API error for unit 128 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_128!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_128!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:43:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:43:04 Europe/Istanbul] Google Sheets API error for unit 130 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_130!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_130!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:43:04 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:43:05 Europe/Istanbul] Google Sheets API error for unit 129 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_129!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_129!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:43:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:43:06 Europe/Istanbul] Google Sheets API error for unit 131 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_131!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_131!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:43:07 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:43:08 Europe/Istanbul] Google Sheets API error for unit 132 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_132!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_132!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:43:08 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:43:08 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:46:35 Europe/Istanbul] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Unit::pushAvailabilityToSheet(), 1 passed in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 87 and exactly 2 expected in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php:74
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php(87): Unit->pushAvailabilityToSheet(128)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php on line 74
+[11-Jun-2025 12:52:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:55:01 Europe/Istanbul] Google Sheets API error for unit 133 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_133!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_133!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:55:01 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 12:55:01 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:55:01 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:55:20 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:57:29 Europe/Istanbul] Google Sheets API error for unit 133 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_133!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_133!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:57:29 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 12:57:29 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:57:29 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 12:59:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:59:42 Europe/Istanbul] Google Sheets API error for unit 133 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_133!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_133!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:59:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:59:44 Europe/Istanbul] Google Sheets API error for unit 135 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_135!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_135!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:59:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:59:45 Europe/Istanbul] Google Sheets API error for unit 134 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_134!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_134!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:59:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:59:47 Europe/Istanbul] Google Sheets API error for unit 136 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_136!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_136!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:59:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 12:59:48 Europe/Istanbul] Google Sheets API error for unit 137 on spreadsheet '1nTOMlsy6nDspotYHOfYW4jNEP7GM1PYsIg9NU3geBEM': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_137!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_137!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 12:59:48 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 12:59:48 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 13:00:14 Europe/Istanbul] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Unit::pushAvailabilityToSheet(), 1 passed in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 87 and exactly 2 expected in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php:74
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php(87): Unit->pushAvailabilityToSheet(134)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php on line 74
+[11-Jun-2025 13:03:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:03:59 Europe/Istanbul] Google Sheets API error for unit 138 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_138!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_138!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:04:00 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:04:01 Europe/Istanbul] Google Sheets API error for unit 140 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_140!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_140!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:04:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:04:03 Europe/Istanbul] Google Sheets API error for unit 139 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_139!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_139!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:04:03 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:04:04 Europe/Istanbul] Google Sheets API error for unit 141 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_141!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_141!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:04:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:04:06 Europe/Istanbul] Google Sheets API error for unit 142 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_142!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_142!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:04:06 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 13:04:06 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 13:05:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:05:26 Europe/Istanbul] Google Sheets API error for unit 138 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_138!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_138!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:05:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:05:29 Europe/Istanbul] Google Sheets API error for unit 140 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_140!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_140!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:05:29 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:05:29 Europe/Istanbul] Google Sheets API error for unit 139 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_139!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_139!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:05:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:05:31 Europe/Istanbul] Google Sheets API error for unit 141 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_141!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_141!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:05:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:05:32 Europe/Istanbul] Google Sheets API error for unit 142 on spreadsheet '124WB21O8P6BU8nYQZpQMkUGzqYKb9v2-8o-RP4j1fOY': {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: Unit_142!A2:C",
+    "errors": [
+      {
+        "message": "Unable to parse range: Unit_142!A2:C",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[11-Jun-2025 13:05:32 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 13:05:32 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 13:09:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:28 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:29 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:32 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:33 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:34 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:09:38 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 13:09:38 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 13:10:56 Europe/Istanbul] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Unit::pushAvailabilityToSheet(), 1 passed in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 87 and exactly 2 expected in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php:74
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php(87): Unit->pushAvailabilityToSheet(138)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php on line 74
+[11-Jun-2025 13:15:28 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:17:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:17:39 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 13:17:39 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 13:17:39 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 13:18:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:18:49 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 13:18:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 13:19:38 Europe/Istanbul] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Unit::pushAvailabilityToSheet(), 1 passed in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php on line 87 and exactly 2 expected in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php:74
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php(87): Unit->pushAvailabilityToSheet(139)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php on line 74
+[11-Jun-2025 13:21:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:21:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:21:26 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to private method Sync::log() from scope Unit in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php:114
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php(72): Unit->pushAvailabilityToSheet(142, 13)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php on line 114
+[11-Jun-2025 13:22:11 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:22:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 13:22:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to private method Sync::log() from scope Unit in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php:114
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-reservation.php(72): Unit->pushAvailabilityToSheet(141, 13)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(24): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Unit.php on line 114
+[11-Jun-2025 14:18:56 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:18:56 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:18:58 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:18:59 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:01 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:03 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:06 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:19:07 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 14:19:07 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 14:23:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to private method Sync::log() from scope Calendar in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Calendar.php:78
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Sync.php(226): Calendar->updateAvailability(138, '2025-06-11', true, NULL, 'presync_clear')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Sync.php(123): Sync->clearFutureAvailability(138)
+#2 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Sync.php(35): Sync->syncUnitFromWordPress(Array)
+#3 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Sync.php(213): Sync->syncUnit(138)
+#4 /home/oteldepo/propertyhub.vibesmode.xyz/api/sync.php(14): Sync->syncProperty(13)
+#5 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(18): require_once('/home/oteldepo/...')
+#6 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Calendar.php on line 78
+[11-Jun-2025 14:24:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to private method Sync::log() from scope Calendar in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Calendar.php:78
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php(34): Calendar->updateAvailability(138, '2025-06-26', false, 'g-sheet-2025061...', 'google_sheet_pu...')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(27): require_once('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Calendar.php on line 78
+[11-Jun-2025 14:32:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:16 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:20 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:21 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:22 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:32:24 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 14:32:24 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 14:35:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:28 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:32 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:33 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:35 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:35:37 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 14:35:37 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 14:45:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:45:50 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 14:45:50 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 14:58:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:50 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:51 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 14:58:54 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 14:58:54 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:04:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:50 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:51 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:53 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:04:54 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:04:54 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:07:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:15 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:20 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:21 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:07:21 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:07:21 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:17:21 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:23 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:28 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:29 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:17:31 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:17:31 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:18:18 Europe/Istanbul] PHP Warning:  Undefined variable $propertyData in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:18 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:18 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:18:18 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  Undefined variable $propertyData in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  Undefined variable $propertyData in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:18:22 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:18:35 Europe/Istanbul] PHP Warning:  Undefined variable $propertyData in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:35 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 48
+[11-Jun-2025 15:18:35 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:18:35 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:48) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:29:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:11 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:16 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:16 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:29:19 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:29:19 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:35:32 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:35:33 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:35:34 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:35:34 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:36:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:36:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:36:41 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:36:41 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:46:21 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:23 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:28 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:29 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:46:31 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:46:31 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:48:56 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:48:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:48:58 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:48:58 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 15:50:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:50:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 15:50:46 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 15:50:46 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:12:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:12:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:12:19 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:12:19 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:13:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:13:04 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:13:04 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:13:04 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:13:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:13:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:13:49 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:13:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:14:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:14:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:14:32 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:14:32 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:29:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:29:11 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:29:12 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:29:12 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:35:06 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:07 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:15 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:16 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:35:18 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:35:18 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:46:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:51 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:46:53 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:46:53 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 16:54:33 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:56:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 16:56:42 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 16:56:42 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 16:56:42 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 17:05:35 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:05:45 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 17:05:45 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 17:25:31 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:32 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:33 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:34 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:35 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:25:41 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 17:25:41 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 17:27:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:27:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 17:27:47 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 17:27:47 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:00:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:06 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:07 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:11 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:00:15 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:00:15 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:01:24 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:01:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:01:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:01:33 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:01:36 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:02:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:03:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:03:37 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 18:03:37 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:03:37 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:03:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:03:39 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 18:03:39 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:03:39 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:03:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:03:42 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 18:03:42 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:03:42 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:03:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:03:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:03:46 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 18:03:46 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:03:46 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:03:46 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 18:03:46 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:03:46 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:04:30 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:04:31 Europe/Istanbul] SYNC LOGGING FAILED: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[11-Jun-2025 18:04:31 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:04:31 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:07:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:39 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:07:39 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:07:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:44 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:07:44 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:07:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:49 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:07:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:07:51 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:52 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:07:52 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:07:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:55 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:07:55 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:07:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:58 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:07:58 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:07:58 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:08:01 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:03 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:08:03 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:08:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:06 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:07 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:08:07 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:08:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:09 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:08:09 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:08:11 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:12 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:08:12 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:08:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:15 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:08:16 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:08:16 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:10:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:21 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:22 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:22 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:23 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:25 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:26 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:10:27 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:10:27 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:16:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:50 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:51 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:53 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:55 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:56 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:58 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:16:59 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:00 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:17:00 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:17:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:15 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:16 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:17 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:18 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:19 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:20 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:17:20 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:17:20 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:21:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:44 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:21:45 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:21:45 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:24:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:45 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:46 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:47 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:48 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:49 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:51 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:24:51 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:24:51 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 18:26:34 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:35 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:37 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:38 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:39 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:40 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:41 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:42 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:43 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 18:26:43 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 18:26:43 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[11-Jun-2025 19:38:27 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 19:38:29 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[11-Jun-2025 19:38:29 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[11-Jun-2025 19:38:29 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[12-Jun-2025 22:39:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:06 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:13 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:14 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 22:39:14 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[12-Jun-2025 22:39:14 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[12-Jun-2025 23:13:50 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:13:52 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:13:54 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:13:55 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:13:57 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:13:59 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:14:00 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:14:01 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:14:03 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:14:04 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[12-Jun-2025 23:14:05 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[12-Jun-2025 23:14:05 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[13-Jun-2025 16:29:58 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:00 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:02 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:03 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:05 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:07 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:08 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:11 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:12 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[13-Jun-2025 16:30:13 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[13-Jun-2025 16:30:13 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[16-Jun-2025 15:48:22 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method Property::pushUpdateToWordPress() in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:57
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(30): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 57
+[16-Jun-2025 15:51:09 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[16-Jun-2025 15:51:10 Europe/Istanbul] PHP Deprecated:  Calling get_class() without arguments is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php on line 58
+[16-Jun-2025 15:51:11 Europe/Istanbul] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 13
+[16-Jun-2025 15:51:11 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/vendor/google/apiclient/src/Http/REST.php:58) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 14
+[17-Jun-2025 10:00:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method Property::pushUpdateToWordPress() in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php:57
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/api/index.php(30): require_once()
+#1 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/api/update-from-sheet.php on line 57

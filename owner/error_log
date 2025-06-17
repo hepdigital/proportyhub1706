@@ -1,0 +1,292 @@
+[15-Jun-2025 15:39:24 Europe/Istanbul] PHP Warning:  Undefined array key "cover_photo_path" in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Property.php on line 117
+[15-Jun-2025 15:39:24 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/classes/Property.php:117) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[15-Jun-2025 15:39:49 Europe/Istanbul] PHP Warning:  Undefined array key "cover_photo_path" in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Property.php on line 117
+[15-Jun-2025 15:39:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/classes/Property.php:117) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[15-Jun-2025 15:55:15 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:15 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:15 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:15 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:16 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:17 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 44
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $property_id_for_view in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 47
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Warning:  Undefined variable $selected_types in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 15:55:18 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php:65
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php(65): array_column(NULL, 'type_id')
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(151): include('/home/oteldepo/...')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 65
+[15-Jun-2025 16:56:57 Europe/Istanbul] PHP Warning:  Undefined array key "contact_person_name" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 40
+[15-Jun-2025 16:56:57 Europe/Istanbul] PHP Warning:  Undefined array key "contact_phone" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 41
+[15-Jun-2025 16:56:57 Europe/Istanbul] PHP Warning:  Undefined array key "reservation_type" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 42
+[15-Jun-2025 16:56:57 Europe/Istanbul] PHP Warning:  Undefined array key "paid_child_age" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 44
+[15-Jun-2025 16:56:57 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:40) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[15-Jun-2025 17:12:29 Europe/Istanbul] PHP Warning:  move_uploaded_file(../home/oteldepo/propertyhub.vibesmode.xyz/owner/uploads/covers/4c3f812f11dde0d50fef2bdbd036801a.png): Failed to open stream: No such file or directory in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 64
+[15-Jun-2025 17:12:29 Europe/Istanbul] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpTqNn7B' to '../home/oteldepo/propertyhub.vibesmode.xyz/owner/uploads/covers/4c3f812f11dde0d50fef2bdbd036801a.png' in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 64
+[15-Jun-2025 17:12:29 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:64) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[15-Jun-2025 17:13:16 Europe/Istanbul] PHP Warning:  move_uploaded_file(../home/oteldepo/propertyhub.vibesmode.xyz/owner/uploads/covers/db3964b99674c35214d9c64ffae6ed12.webp): Failed to open stream: No such file or directory in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 64
+[15-Jun-2025 17:13:16 Europe/Istanbul] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRfD6EE' to '../home/oteldepo/propertyhub.vibesmode.xyz/owner/uploads/covers/db3964b99674c35214d9c64ffae6ed12.webp' in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 64
+[15-Jun-2025 17:13:16 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:64) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[15-Jun-2025 21:05:31 Europe/Istanbul] PHP Warning:  Undefined variable $unit_class in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 87
+[15-Jun-2025 21:05:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getMaxUnitNumber() on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 87
+[15-Jun-2025 21:08:39 Europe/Istanbul] PHP Warning:  Undefined variable $unit_class in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 103
+[15-Jun-2025 21:08:39 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getMaxUnitNumber() on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:103
+Stack trace:
+#0 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 103
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 21:59:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:43 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:44 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 140
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 144
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:00:45 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/property-edit.php on line 148
+[15-Jun-2025 22:50:44 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_id in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 283
+[15-Jun-2025 22:51:28 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_id in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 283
+[15-Jun-2025 22:51:45 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_id in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 283
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_data in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $property_id in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 42
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_data in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 57
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 57
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_data in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 59
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 59
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $property_id in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 60
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_data in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $categorized_features in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 76
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 76
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $photos in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 102
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 102
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_data in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 114
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 114
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $unit_type_data in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 116
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 116
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  Undefined variable $photos in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 128
+[15-Jun-2025 23:59:10 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 128
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 57
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 59
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 114
+[16-Jun-2025 00:02:34 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 116
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 57
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 59
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 114
+[16-Jun-2025 00:02:42 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 116
+[16-Jun-2025 00:04:33 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:04:33 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:04:33 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 124
+[16-Jun-2025 00:04:33 Europe/Istanbul] PHP Warning:  Trying to access array offset on null in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 126
+[16-Jun-2025 00:05:15 Europe/Istanbul] PHP Warning:  Undefined array key "name" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:05:15 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:05:15 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 124
+[16-Jun-2025 00:05:15 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 126
+[16-Jun-2025 00:05:28 Europe/Istanbul] PHP Warning:  Undefined array key "name" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:05:28 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:05:28 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 124
+[16-Jun-2025 00:05:28 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 126
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Warning:  Undefined array key "name" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 40
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 57
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 59
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Warning:  Undefined array key "name" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 65
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 114
+[16-Jun-2025 00:06:40 Europe/Istanbul] PHP Warning:  Undefined array key "id" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/views/unit-type-edit.php on line 116
+[16-Jun-2025 00:27:57 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 146
+[16-Jun-2025 00:27:57 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 147
+[16-Jun-2025 00:27:57 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 148
+[16-Jun-2025 00:27:57 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:146) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[16-Jun-2025 00:32:18 Europe/Istanbul] PHP Warning:  Undefined array key "base_price" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 146
+[16-Jun-2025 00:32:18 Europe/Istanbul] PHP Warning:  Undefined array key "capacity" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 147
+[16-Jun-2025 00:32:18 Europe/Istanbul] PHP Warning:  Undefined array key "price_per_extra_person" in /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php on line 148
+[16-Jun-2025 00:32:18 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php:146) in /home/oteldepo/propertyhub.vibesmode.xyz/includes/functions.php on line 3
+[16-Jun-2025 01:04:38 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:105
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(105): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-05-27', '6000', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 105
+[16-Jun-2025 01:04:46 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:105
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(105): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-05-27', '6000', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 105
+[16-Jun-2025 01:05:17 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:105
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(105): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-05-27', '6000', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 105
+[16-Jun-2025 01:06:27 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:111
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(111): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-06-03', '65000', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 111
+[16-Jun-2025 01:06:28 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:111
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(111): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-06-03', '65000', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 111
+[16-Jun-2025 01:06:47 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:111
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(111): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-06-03', '50000', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 111
+[16-Jun-2025 01:10:44 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php:105
+Stack trace:
+#0 /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php(105): PDOStatement->execute(Array)
+#1 /home/oteldepo/propertyhub.vibesmode.xyz/owner/index.php(339): Pricing->createOrUpdatePriceForDate('4', '2025-06-17', '7240', '24')
+#2 {main}
+  thrown in /home/oteldepo/propertyhub.vibesmode.xyz/classes/Pricing.php on line 105

@@ -1,0 +1,316 @@
+/*
+ * Property Hub - Owner Panel Stil Dosyası
+ * Bu dosya, Tailwind CSS benzeri bir yaklaşımla modern ve mobil uyumlu bir panel arayüzü oluşturur.
+ * v2.0 - Genel Görünüm İyileştirmeleri
+*/
+
+/* ------------------------- */
+/* ----- TEMEL AYARLAR ----- */
+/* ------------------------- */
+:root {
+    --primary-50: #f0fdf4;
+    --primary-100: #dcfce7;
+    --primary-500: #22c55e;
+    --primary-600: #16a34a;
+    --primary-900: #14532d;
+
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+
+    --green-100: #dcfce7;
+    --green-400: #4ade80;
+    --green-600: #16a34a;
+    --green-700: #15803d;
+
+    --red-100: #fee2e2;
+    --red-400: #f87171;
+    --red-600: #dc2626;
+    --red-700: #b91c1c;
+    
+    --yellow-100: #fef9c3;
+    --yellow-600: #ca8a04;
+    
+    --purple-100: #f3e8ff;
+    --purple-600: #9333ea;
+
+    --sidebar-width: 256px;
+    --header-height: 64px;
+
+    /* FullCalendar Özelleştirmesi */
+    --fc-border-color: var(--gray-200);
+    --fc-today-bg-color: var(--primary-50);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: 'Inter', sans-serif; background-color: var(--gray-50); color: var(--gray-800); }
+
+/* --------------------------------- */
+/* --- YARDIMCI & GENEL SINIFLAR --- */
+/* --------------------------------- */
+.fixed { position: fixed; }
+.hidden { display: none !important; }
+.flex { display: flex; }
+.grid { display: grid; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.w-full { width: 100%; }
+.w-auto { width: auto; }
+.max-w-lg { max-width: 32rem; }
+.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+.z-50 { z-index: 50; }
+.p-4 { padding: 1rem; }
+.mr-2 { margin-right: 0.5rem; }
+.bg-gray-900 { background-color: var(--gray-900); }
+.bg-opacity-50 { background-color: rgba(17, 24, 39, 0.5); }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+.gap-6 { gap: 1.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mt-6 { margin-top: 1.5rem; }
+.mt-8 { margin-top: 2rem; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.font-bold { font-weight: 700; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-sm { font-size: 0.875rem; }
+.text-gray-500 { color: var(--gray-500); }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.h-12 { height: 3rem; }
+.w-12 { width: 3rem; }
+.w-4 { width: 1rem; }
+.h-4 { height: 1rem; }
+.w-9 { width: 2.25rem; }
+.h-9 { height: 2.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 0.75rem; }
+.text-gray-400 { color: var(--gray-400); }
+.mt-2 { margin-top: 0.5rem; }
+.mt-1 { margin-top: 0.25rem; }
+.bg-primary-100 { background-color: var(--primary-100); } .bg-green-100 { background-color: var(--green-100); } .bg-yellow-100 { background-color: var(--yellow-100); } .bg-red-100 { background-color: var(--red-100); }
+
+@keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px) scale(0.95); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-fade-in-up { animation: fade-in-up 0.3s ease-out forwards; }
+
+/* ------------------------- */
+/* ----- ANA YAPI (LAYOUT) --- */
+/* ------------------------- */
+.owner-panel-wrapper { position: relative; min-height: 100vh; }
+.sidebar { width: var(--sidebar-width); background-color: var(--gray-900); color: var(--gray-100); position: fixed; top: 0; left: 0; height: 100%; display: flex; flex-direction: column; padding: 1.5rem 1rem; z-index: 40; transform: translateX(0); transition: transform 0.3s ease-in-out; }
+.main-content-area { margin-left: var(--sidebar-width); width: calc(100% - var(--sidebar-width)); display: flex; flex-direction: column; transition: margin-left 0.3s ease-in-out; }
+.main-header { height: var(--header-height); background-color: white; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; position: sticky; top: 0; z-index: 30; }
+.page-content { padding: 2rem; flex-grow: 1; }
+/* ... (diğer sidebar, header vb. stiller) ... */
+.sidebar-header .logo { font-size: 1.5rem; font-weight: 700; color: white; text-decoration: none; }
+.sidebar-header .logo span { color: var(--primary-500); }
+.sidebar-nav ul { list-style: none; }
+.sidebar-nav li a { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; border-radius: 0.375rem; color: var(--gray-200); text-decoration: none; font-weight: 500; margin-bottom: 0.5rem; transition: background-color 0.2s, color 0.2s; }
+.sidebar-nav li a:hover { background-color: var(--gray-800); color: white; }
+.sidebar-nav li a.active { background-color: var(--primary-500); color: white; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); }
+.sidebar-footer a { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; color: var(--gray-400); text-decoration: none; font-weight: 500; border-radius: 0.375rem; }
+.sidebar-footer a:hover { color: white; background-color: var(--gray-800); }
+.main-header h1 { font-size: 1.25rem; font-weight: 600; }
+.user-menu span strong { font-weight: 600; }
+.icon-wrapper { padding: 14px; border-radius: 8px; margin-right: 10px; }
+
+/* ------------------------------ */
+/* --- ÖZEL İSTENEN DÜZENLEMELER --- */
+/* ------------------------------ */
+
+/* 1. Renkli Uyarı Mesajları */
+.alert { padding: 1rem; border-radius: 0.5rem; border: 1px solid transparent; font-weight: 500; display: flex; align-items: center; gap: 0.75rem; }
+.alert-success { background-color: var(--green-100); border-color: var(--green-400); color: var(--green-700); }
+.alert-error { background-color: var(--red-100); border-color: var(--red-400); color: var(--red-700); }
+
+/* 2. Düzenli Ünite Tablosu */
+.data-table { width: 100%; text-align: left; border-collapse: collapse; }
+.data-table thead { background-color: var(--gray-50); }
+.data-table th, .data-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--gray-200); vertical-align: middle; }
+.data-table th { font-weight: 600; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; color: var(--gray-500); }
+.data-table .action-cell { text-align: right; }
+
+/* 3. Canlı Dashboard Kartları */
+.stats-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.stat-card .icon-wrapper { padding: 0.75rem; border-radius: 9999px; margin-right: 1rem; }
+.stat-card .stat-title { font-size: 0.875rem; color: var(--gray-500); font-weight: 500; }
+.stat-card .stat-value { font-size: 1.75rem; font-weight: 700; color: var(--gray-800); }
+
+/* Genel Komponent Stilleri */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.625rem 1rem; border-radius: 0.375rem; border: 1px solid transparent; font-weight: 600; text-decoration: none; cursor: pointer; transition: all 0.2s; font-size: 0.875rem; }
+.btn-primary { background-color: var(--primary-500); color: white; border-color: var(--primary-500); }
+.btn-primary:hover { background-color: var(--primary-600); }
+.btn-secondary { background-color: white; color: var(--gray-800); border: 1px solid var(--gray-200); }
+.btn-secondary:hover { background-color: var(--gray-50); }
+.card { background-color: white; border-radius: 0.75rem; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); padding: 1.5rem; }
+.form-group { margin-bottom: 1.25rem; }
+.form-group label { display: block; font-size: 0.875rem; font-weight: 500; margin-bottom: 0.5rem; }
+.form-control { width: 100%; padding: 0.625rem 0.75rem; border: 1px solid var(--gray-200); border-radius: 0.375rem; background-color: white; transition: border-color 0.2s, box-shadow 0.2s; }
+.form-control:focus { outline: none; border-color: var(--primary-500); box-shadow: 0 0 0 2px var(--primary-100); }
+.overflow-x-auto { overflow-x: auto; }
+
+/* ------------------------- */
+/* ---- TAKVİM STİLLERİ ---- */
+/* ------------------------- */
+.fc .fc-toolbar-title { font-size: 1.25rem; font-weight: 600; }
+.fc .fc-button-primary { background-color: var(--primary-500) !important; border-color: var(--primary-500) !important; text-transform: capitalize; }
+.fc .fc-button-primary:hover { background-color: var(--primary-600) !important; }
+.fc .fc-button-active { background-color: var(--primary-900) !important; }
+.fc-event { cursor: pointer; padding: 2px 4px !important; font-size: 0.8em; border:none !important; }
+
+/* ------------------------- */
+/* ---- MOBİL UYUMLULUK ---- */
+/* ------------------------- */
+.mobile-menu-button { display: none; background: none; border: none; cursor: pointer; z-index: 50; color: var(--gray-600); }
+.sidebar-overlay { display: none; position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 39; }
+
+@media (min-width: 640px) { .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .stats-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 768px) {
+    .sidebar { transform: translateX(-100%); }
+    .sidebar.is-open { transform: translateX(0); }
+    .sidebar.is-open ~ .sidebar-overlay { display: block; }
+    .main-content-area { margin-left: 0; width: 100%; }
+    .mobile-menu-button { display: block; }
+    .main-header .user-menu { display: none; }
+    .page-content { padding: 1rem; }
+    .main-header { padding: 0 1rem; }
+}
+
+/* ================================== */
+/* === TESİS LİSTELEME STİLLERİ === */
+/* ================================== */
+
+.properties-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+/* Orta ve büyük ekranlar için grid yapısı */
+@media (min-width: 768px) {
+    .properties-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (min-width: 1280px) {
+    .properties-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.property-card {
+    background-color: white;
+    border-radius: 0.75rem; /* 12px */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Resmin köşelerini yuvarlatmak için */
+    transition: all 0.3s ease-in-out;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.property-card-image {
+    height: 12rem; /* 192px */
+    background-color: var(--gray-100);
+}
+
+.property-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmin orantısını bozmadan kaplamasını sağlar */
+}
+
+.property-card-image .placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-400);
+}
+
+.property-card-content {
+    padding: 1.25rem; /* 20px */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Kartın alt kısmını doldurmasını sağlar */
+}
+
+.property-card-info {
+    margin-top: 1rem;
+    font-size: 0.875rem; /* 14px */
+    color: var(--gray-600);
+    space-y: 0.75rem; /* Her bilgi satırı arasına boşluk */
+}
+
+.property-card-actions {
+    margin-top: 1.5rem; /* 24px */
+    padding-top: 1rem; /* 16px */
+    border-top: 1px solid var(--gray-100);
+}
+
+
+/* ================================== */
+/* ====== GİRİŞ SAYFASI STİLLERİ ====== */
+/* ================================== */
+.login-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--gray-50);
+    padding: 2rem;
+}
+
+.login-card {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-card .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.login-card .logo span {
+    color: var(--primary-600);
+}
+.login-card .tagline {
+    text-align: center;
+    color: var(--gray-500);
+    margin-bottom: 2rem;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
